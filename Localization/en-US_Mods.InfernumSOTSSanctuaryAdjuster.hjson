@@ -1,0 +1,59 @@
+Configs: {
+	SanctuarySpawnConfig: {
+		DisplayName: Sanctuary Spawn Config
+
+		Headers: {
+			General: General
+			Fraction: Fraction Mode (0.0 - 1.0)
+			Tiles: Tiles Mode
+			Nudge: Nudge Mode
+		}
+
+		OnlyWhenSpookyOrInfernum: {
+			Label: Only apply when Spooky or Infernum is enabled
+			Tooltip: ""
+		}
+
+		PositionMode: {
+			Label: Position Mode
+			Tooltip: ""
+		}
+
+		MinMarginTiles: {
+			Label: Minimum margin from world edges (tiles)
+			Tooltip: ""
+		}
+
+		LeftFraction: {
+			Label: Left-side fraction (when Jungle is on the RIGHT)
+			Tooltip: ""
+		}
+
+		RightFraction: {
+			Label: Right-side fraction (when Jungle is on the LEFT)
+			Tooltip: ""
+		}
+
+		LeftTiles: {
+			Label: Absolute tiles from left (when Jungle is on the RIGHT)
+			Tooltip: ""
+		}
+
+		RightTilesFromRightEdge: {
+			Label: Absolute tiles from RIGHT edge (when Jungle is on the LEFT)
+			Tooltip: ""
+		}
+
+		NudgeTilesTowardCenter: {
+			Label: Nudge toward center (tiles)
+			Tooltip: ""
+		}
+	}
+
+	PositionMode: {
+		Tooltip: ""
+		Fraction.Label: Fraction
+		Tiles.Label: Tiles
+		Nudge.Label: Nudge
+	}
+}

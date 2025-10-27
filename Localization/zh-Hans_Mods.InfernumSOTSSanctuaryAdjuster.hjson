@@ -1,0 +1,59 @@
+Configs: {
+	SanctuarySpawnConfig: {
+		DisplayName: 圣域生成设置
+
+		Headers: {
+			General: 常规
+			Fraction: 比例模式（0.0 - 1.0）
+			Tiles: 方格模式
+			Nudge: 靠拢模式
+		}
+
+		OnlyWhenSpookyOrInfernum: {
+			Label: 只在启用惊惧或炼狱模组时启用
+			Tooltip: ""
+		}
+
+		PositionMode: {
+			Label: 定位模式
+			Tooltip: ""
+		}
+
+		MinMarginTiles: {
+			Label: 距离世界边界的最小边距（以格为单位）
+			Tooltip: ""
+		}
+
+		LeftFraction: {
+			Label: 左侧比例（当丛林在右边时）
+			Tooltip: ""
+		}
+
+		RightFraction: {
+			Label: 右侧比例（当丛林在左边时）
+			Tooltip: ""
+		}
+
+		LeftTiles: {
+			Label: 从左侧世界边界算起，绝对方格数（当丛林在右边时）
+			Tooltip: ""
+		}
+
+		RightTilesFromRightEdge: {
+			Label: 从右侧世界边界算起，绝对方格数（当丛林在左边时）
+			Tooltip: ""
+		}
+
+		NudgeTilesTowardCenter: {
+			Label: 向世界中心靠拢（格子数）
+			Tooltip: ""
+		}
+	}
+
+	PositionMode: {
+		Tooltip: ""
+		Fraction.Label: 比例
+		Tiles.Label: 方格
+		Nudge.Label: 靠拢
+	}
+}

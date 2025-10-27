@@ -1,0 +1,44 @@
+﻿A mod that allows you to move the spawn location of the SOTS Sanctuary biome. 
+This was primarily made for my other mod, Infernal Eclipse of Ragnarok but doesn't require it and only requires SOTS as a dependency.
+
+By default this only effects the world generation if you have Infernum or Spooky Mod enabled, and move the biome closer to the center of the world so it doesn't interfere with the Brimstone Crags biome from Calamity, but you are able to fully customize the spawn location in the config, as well as disable the Infernum/Spooky requirement for this generation.
+
+How to use:
+- Easiest: Fraction mode -
+
+Mode = Fraction
+
+LeftFraction = 0.30 // jungle on right → place at 30% of world
+
+RightFraction = 0.70 // jungle on left → place at 70%
+
+(leave MinMarginTiles = 300)
+
+- Tiles mode (set both sides to same distance from edge) -
+
+Mode = Tiles
+
+Small (4200 wide): LeftTiles = 1260, RightTilesFromRightEdge = 1260
+
+Medium (6400): LeftTiles = 1920, RightTilesFromRightEdge = 1920
+
+Large (8400): LeftTiles = 2520, RightTilesFromRightEdge = 2520
+
+- Nudge mode (move original 1/8 or 7/8 inward) -
+
+Target ~30%/70%:
+
+Small: NudgeTilesTowardCenter = 735
+
+Medium: 1120
+
+Large: 1470
+
+(Formula if your world size is custom: Fraction target f ⇒ Tiles = round(f * Main.maxTilesX); Nudge ⇒ round((f - 0.125) * Main.maxTilesX).)
+
+Please note that messing with these settings could break your world and/or cause the world generation to fail as messing with World Generation is very messy, especially when messing with another mod's world gen.
+
+If your interested in more compatibility mods like this, check out my other mods:
+- Infernal Eclipse of Ragnarok, an ultramodded Infernum compatibility mod.
+- Thrower Unification, a mod that unifies all thrower classes across mods.
+- Permafrost Keep Quest Skipper, a mod that allows you to skip the Permafrost Keep quest in Wrath of the Gods.

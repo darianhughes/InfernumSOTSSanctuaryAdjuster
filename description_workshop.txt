@@ -1,0 +1,47 @@
+﻿A mod that allows you to move the spawn location of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914&searchtext=secrets] Secrets of the Shadows[/url] 'Sanctuary biome. 
+This was primarily made for my other mod, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686] Infernal Eclipse of Ragnarok[/url] but doesn't require it.
+This mod does nothing if you do not have [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914&searchtext=secrets] Secrets of the Shadows[/url] enabled.
+
+By default this only effects the world generation if you have Infernum or Spooky Mod enabled, and move the biome closer to the center of the world so it doesn't interfere with the Brimstone Crags biome from Calamity, but you are able to fully customize the spawn location in the config, as well as disable the Infernum/Spooky requirement for this generation.
+
+[h2]How to use:[/h2]
+[h3]Easiest: Fraction mode[/h3]
+
+Mode = Fraction
+
+LeftFraction = 0.30 // jungle on right → place at 30% of world
+
+RightFraction = 0.70 // jungle on left → place at 70%
+
+(leave MinMarginTiles = 300)
+
+[h3]Tiles mode (set both sides to same distance from edge)[/h3]
+
+Mode = Tiles
+
+Small (4200 wide): LeftTiles = 1260, RightTilesFromRightEdge = 1260
+
+Medium (6400): LeftTiles = 1920, RightTilesFromRightEdge = 1920
+
+Large (8400): LeftTiles = 2520, RightTilesFromRightEdge = 2520
+
+[h3]Nudge mode (move original 1/8 or 7/8 inward)[/h3]
+
+Target ~30%/70%:
+
+Small: NudgeTilesTowardCenter = 735
+
+Medium: 1120
+
+Large: 1470
+
+(Formula if your world size is custom: Fraction target f ⇒ Tiles = round(f * Main.maxTilesX); Nudge ⇒ round((f - 0.125) * Main.maxTilesX).)
+
+[b]Please note that messing with these settings could break your world and/or cause the world generation to fail as messing with World Generation is very messy, especially when messing with another mod's world gen.[/b]
+
+If your interested in more compatibility mods like this, check out my other mods:
+[list]
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686] Infernal Eclipse of Ragnarok[/url], an ultramodded Infernum compatibility mod.
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309] Thrower Unification[/url], a mod that unifies all thrower classes across mods.
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503267205] Permafrost Keep Quest Skipper[/url], a mod that allows you to skip the Permafrost Keep quest in Wrath of the Gods.
+[/list]
