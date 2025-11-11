@@ -16,7 +16,11 @@ namespace InfernumSOTSSanctuaryAdjuster
         [Label("Only apply when Spooky or Infernum is enabled")]
         [DefaultValue(true)]
         [ReloadRequired]
-        public bool OnlyWhenSpookyOrInfernum { get; set; } = true;
+        public bool OnlyWhenSpookyOrInfernum { get; set; }
+
+        [DefaultValue(true)]
+        [ReloadRequired]
+        public bool OnlyWhenNoxusBoss { get; set; }
 
         [Label("Position Mode")]
         [DefaultValue(PositionMode.Fraction)]

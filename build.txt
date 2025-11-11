@@ -1,4 +1,4 @@
-displayName = Infernum SOTS Sanctuary WorldGen Adjuster
+displayName = SOTS World Generation Adjustments
 author = Akira
-version = 1.1
+version = 2.0
 sortAfter = SOTS

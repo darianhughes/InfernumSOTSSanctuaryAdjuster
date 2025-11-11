@@ -14,6 +14,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		OnlyWhenNoxusBoss: {
+			// Label: Restricted Sapphire Structure Adjustments
+			// Tooltip: Only apply when Wrath of the Gods is enabled
+		}
+
 		PositionMode: {
 			Label: 定位模式
 			Tooltip: ""
@@ -52,8 +57,20 @@ Configs: {
 
 	PositionMode: {
 		Tooltip: ""
-		Fraction.Label: 比例
-		Tiles.Label: 方格
-		Nudge.Label: 靠拢
+
+		Fraction: {
+			Label: 比例
+			// Tooltip: ""
+		}
+
+		Tiles: {
+			Label: 方格
+			// Tooltip: ""
+		}
+
+		Nudge: {
+			Label: 靠拢
+			// Tooltip: ""
+		}
 	}
 }

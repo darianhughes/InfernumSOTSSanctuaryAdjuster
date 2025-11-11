@@ -1,17 +1,22 @@
 Configs: {
 	SanctuarySpawnConfig: {
-		DisplayName: Sanctuary Spawn Config
+		DisplayName: Adjustment Configuration
 
 		Headers: {
 			General: General
-			Fraction: Fraction Mode (0.0 - 1.0)
-			Tiles: Tiles Mode
-			Nudge: Nudge Mode
+			Fraction: Sanctuary: Fraction Mode (0.0 - 1.0)
+			Tiles: Sanctuary: Tiles Mode
+			Nudge: Sanctuary: Nudge Mode
 		}
 
 		OnlyWhenSpookyOrInfernum: {
-			Label: Only apply when Spooky or Infernum is enabled
-			Tooltip: ""
+			Label: Restricted Sanctuary Adjustments
+			Tooltip: Only apply when Spooky or Infernum is enabled
+		}
+
+		OnlyWhenNoxusBoss: {
+			Label: Restricted Sapphire Structure Adjustments
+			Tooltip: Only apply when Wrath of the Gods is enabled
 		}
 
 		PositionMode: {
@@ -52,8 +57,20 @@ Configs: {
 
 	PositionMode: {
 		Tooltip: ""
-		Fraction.Label: Fraction
-		Tiles.Label: Tiles
-		Nudge.Label: Nudge
+
+		Fraction: {
+			Label: Fraction
+			Tooltip: ""
+		}
+
+		Tiles: {
+			Label: Tiles
+			Tooltip: ""
+		}
+
+		Nudge: {
+			Label: Nudge
+			Tooltip: ""
+		}
 	}
 }

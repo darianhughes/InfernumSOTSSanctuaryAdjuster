@@ -1,8 +1,14 @@
-﻿A mod that allows you to move the spawn location of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914&searchtext=secrets] Secrets of the Shadows[/url] 'Sanctuary biome. 
+﻿A mod that adjusts the spawn location some of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914&searchtext=secrets] Secrets of the Shadows[/url]' biomes and structures.
+Right now this includes the Sapphire Gem Structure and the Sanctuary biome.
+
 This was primarily made for my other mod, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686] Infernal Eclipse of Ragnarok[/url] but doesn't require it.
 This mod does nothing if you do not have [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914&searchtext=secrets] Secrets of the Shadows[/url] enabled.
 
-By default this only effects the world generation if you have Infernum or Spooky Mod enabled, and move the biome closer to the center of the world so it doesn't interfere with the Brimstone Crags biome from Calamity, but you are able to fully customize the spawn location in the config, as well as disable the Infernum/Spooky requirement for this generation.
+[h1] Sapphire Gem Structure[/h1]
+By default the Sapphire Gem Structure is only moved when Wrath of the Gods is enabled, and it moves it to the bottom left corner of the Ice Biome instead of the botom right to avoid conflicts with the Permafrost Keep structure from Wrath of the Gods. You can also disable the Wrath of the Gods requirement in the config for this generation.
+
+[h1] Santuary Biome[/h1]
+By default the Santuary biome adjustments only effects the world generation if you have Infernum or Spooky Mod enabled, and it moves the biome closer to the center of the world so it doesn't interfere with the Brimstone Crags biome from Calamity, but you are able to fully customize the spawn location in the config, as well as disable the Infernum/Spooky requirement for this generation.
 
 [h2]How to use:[/h2]
 [h3]Easiest: Fraction mode[/h3]
@@ -36,6 +42,7 @@ Medium: 1120
 Large: 1470
 
 (Formula if your world size is custom: Fraction target f ⇒ Tiles = round(f * Main.maxTilesX); Nudge ⇒ round((f - 0.125) * Main.maxTilesX).)
+
 
 [b]Please note that messing with these settings could break your world and/or cause the world generation to fail as messing with World Generation is very messy, especially when messing with another mod's world gen.[/b]
 

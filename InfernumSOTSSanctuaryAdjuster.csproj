@@ -9,7 +9,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <Reference Include="SOTS">
-	    <HintPath>..\ModAssemblies\SOTS_v0.25.0.4.dll</HintPath>
+	    <HintPath>..\ModAssemblies\SOTS_v0.25.1.0.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 

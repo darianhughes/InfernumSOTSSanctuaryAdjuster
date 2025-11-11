@@ -25,7 +25,6 @@ namespace InfernumSOTSSanctuaryAdjuster
 
             var asm = sots.GetType().Assembly;
 
-            // Correct full name in this repo: SOTS.WorldgenHelpers.SanctuaryWorldgenHelper
             var helperT =
                 asm.GetType("SOTS.WorldgenHelpers.SanctuaryWorldgenHelper", throwOnError: false)
                 ?? asm.GetTypes().FirstOrDefault(t => t.Name == "SanctuaryWorldgenHelper");

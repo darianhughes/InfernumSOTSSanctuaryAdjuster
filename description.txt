@@ -1,7 +1,12 @@
-﻿A mod that allows you to move the spawn location of the SOTS Sanctuary biome. 
-This was primarily made for my other mod, Infernal Eclipse of Ragnarok but doesn't require it and only requires SOTS as a dependency.
+﻿A mod that adjusts the spawn location some of the Secrets of the Shadows' biomes and structures.
+Right now this includes the Sapphire Gem Structure and the Sanctuary biome.
 
-By default this only effects the world generation if you have Infernum or Spooky Mod enabled, and move the biome closer to the center of the world so it doesn't interfere with the Brimstone Crags biome from Calamity, but you are able to fully customize the spawn location in the config, as well as disable the Infernum/Spooky requirement for this generation.
+This was primarily made for my other mod Infernal Eclipse of Ragnarok but doesn't require it, and does nothing if you do not have Secrets of the Shadows enabled.
+
+Sapphire Gem Structure:
+By default the Sapphire Gem Structure is only moved when Wrath of the Gods is enabled, and it moves it to the bottom left corner of the Ice Biome instead of the botom right to avoid conflicts with the Permafrost Keep structure from Wrath of the Gods. You can also disable the Wrath of the Gods requirement in the config for this generation.
+
+Santuary Biome:
 
 How to use:
 - Easiest: Fraction mode -
@@ -37,8 +42,3 @@ Large: 1470
 (Formula if your world size is custom: Fraction target f ⇒ Tiles = round(f * Main.maxTilesX); Nudge ⇒ round((f - 0.125) * Main.maxTilesX).)
 
 Please note that messing with these settings could break your world and/or cause the world generation to fail as messing with World Generation is very messy, especially when messing with another mod's world gen.
-
-If your interested in more compatibility mods like this, check out my other mods:
-- Infernal Eclipse of Ragnarok, an ultramodded Infernum compatibility mod.
-- Thrower Unification, a mod that unifies all thrower classes across mods.
-- Permafrost Keep Quest Skipper, a mod that allows you to skip the Permafrost Keep quest in Wrath of the Gods.
